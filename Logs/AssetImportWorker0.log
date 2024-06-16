@@ -1,0 +1,380 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/konam/workspace/ethan-chou/wolfenstein4k
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60948
+Successfully changed project path to: C:/Users/konam/workspace/ethan-chou/wolfenstein4k
+C:/Users/konam/workspace/ethan-chou/wolfenstein4k
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9432] Host "[IP] 192.168.1.118 [Port] 0 [Flags] 2 [Guid] 283593532 [EditorId] 283593532 [Version] 1048832 [Id] WindowsEditor(7,richard-chou) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9432] Host "[IP] 192.168.1.118 [Port] 0 [Flags] 2 [Guid] 283593532 [EditorId] 283593532 [Version] 1048832 [Id] WindowsEditor(7,richard-chou) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/konam/workspace/ethan-chou/wolfenstein4k/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     8054 MB
+    Driver:   31.0.101.5194
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007504 seconds.
+- Loaded All Assemblies, in  0.344 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 618ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (119ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (276ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (221ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.215 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.337 seconds
+Domain Reload Profiling: 551ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (6ms)
+		LoadAssemblies (82ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (205ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (39.9 KB). Loaded Objects now: 477.
+Memory consumption went from 53.0 MB to 53.0 MB.
+Total: 2.375000 ms (FindLiveObjects: 0.038200 ms CreateObjectMapping: 0.004000 ms MarkObjects: 2.254300 ms  DeleteObjects: 0.077200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 63068.083911 seconds.
+  path: Assets/Textures/ground001.jpg
+  artifactKey: Guid(fc7a81b8c0c5a444c932278ebf3970c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground001.jpg using Guid(fc7a81b8c0c5a444c932278ebf3970c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9efce7942c942a2db537860c33c0bc') in 0.093107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.193577 seconds.
+  path: Assets/Textures/ground001 1.jpg
+  artifactKey: Guid(304273d693e699240b49ab87219fd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground001 1.jpg using Guid(304273d693e699240b49ab87219fd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8cedbdeba6e49efa3406cc347a70d8') in 0.027124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.460874 seconds.
+  path: Assets/Textures/ground001_N.jpg
+  artifactKey: Guid(304273d693e699240b49ab87219fd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground001_N.jpg using Guid(304273d693e699240b49ab87219fd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13f3fe633ab9b5e3de270294169e516') in 0.022525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 75.875827 seconds.
+  path: Assets/Textures/ground001_N.jpg
+  artifactKey: Guid(304273d693e699240b49ab87219fd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground001_N.jpg using Guid(304273d693e699240b49ab87219fd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b47ffa2545cdbfab4fed30e91f1596') in 0.059359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 54.172580 seconds.
+  path: Assets/Materials/ground001_N.mat
+  artifactKey: Guid(fc2b9be9fef8a894bb1655c1bd1dc24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground001_N.mat using Guid(fc2b9be9fef8a894bb1655c1bd1dc24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982a73717cf6cdaf43ea059a3f8d7b4e') in 0.142935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 139.321255 seconds.
+  path: Assets/Materials/ground001_N.mat
+  artifactKey: Guid(fc2b9be9fef8a894bb1655c1bd1dc24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground001_N.mat using Guid(fc2b9be9fef8a894bb1655c1bd1dc24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2f3c0611e6b985c12d6da75df4eb25') in 0.393042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 190.392031 seconds.
+  path: Assets/Materials/ground001_N.mat
+  artifactKey: Guid(fc2b9be9fef8a894bb1655c1bd1dc24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground001_N.mat using Guid(fc2b9be9fef8a894bb1655c1bd1dc24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c238ec3cf8e5a1cafffe08789b8fd6a') in 0.296151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 29.834753 seconds.
+  path: Assets/Textures/ground001_N.jpg
+  artifactKey: Guid(304273d693e699240b49ab87219fd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground001_N.jpg using Guid(304273d693e699240b49ab87219fd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0b9593037553cbb7effa595cff4c20') in 0.026428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 120.052453 seconds.
+  path: Assets/Materials/ground001_N.mat
+  artifactKey: Guid(fc2b9be9fef8a894bb1655c1bd1dc24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground001_N.mat using Guid(fc2b9be9fef8a894bb1655c1bd1dc24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1da5ddaa627d4173fa7c82b458f09c') in 0.027758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.565699 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(08bdbf4bff2bbda47b709dd66da2ba3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(08bdbf4bff2bbda47b709dd66da2ba3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b83e56b6cc4e59db21f8ba4218f48f1') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.475886 seconds.
+  path: Assets/Materials/wall_001.mat
+  artifactKey: Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall_001.mat using Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b824dc6e02c2e1ea08f719ff116112') in 0.022043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.698679 seconds.
+  path: Assets/Textures/wall_001 1.png
+  artifactKey: Guid(6beee7407769dc24c8a78c4cad2e9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/wall_001 1.png using Guid(6beee7407769dc24c8a78c4cad2e9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654428819342af2e61f26f9379bf7142') in 0.023654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.999036 seconds.
+  path: Assets/Textures/wall_001_N.png
+  artifactKey: Guid(6beee7407769dc24c8a78c4cad2e9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/wall_001_N.png using Guid(6beee7407769dc24c8a78c4cad2e9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d239ab68188b67cfa68c7f90a0a332') in 0.021591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 49.693601 seconds.
+  path: Assets/Textures/wall_001_N.png
+  artifactKey: Guid(6beee7407769dc24c8a78c4cad2e9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/wall_001_N.png using Guid(6beee7407769dc24c8a78c4cad2e9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1005c97da1502356c9a2cfa633cda3de') in 0.025724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 31.572422 seconds.
+  path: Assets/Materials/wall_001.mat
+  artifactKey: Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall_001.mat using Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce8473ef568cb30f66d6116f3e9ce11') in 0.030436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 42.773133 seconds.
+  path: Assets/Textures/wall_001_N.png
+  artifactKey: Guid(6beee7407769dc24c8a78c4cad2e9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/wall_001_N.png using Guid(6beee7407769dc24c8a78c4cad2e9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c34871f7cfca37c877dd2072faa9cd') in 0.021047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.442858 seconds.
+  path: Assets/Materials/wall_001.mat
+  artifactKey: Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall_001.mat using Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a89a8b01b3d3c4050df2c7b35c24181') in 0.028016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.364030 seconds.
+  path: Assets/Materials/wall_001.mat
+  artifactKey: Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall_001.mat using Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba9ad2cd982064ff773a56992e68b1a') in 0.026709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 37.969184 seconds.
+  path: Assets/Materials/wall_001.mat
+  artifactKey: Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall_001.mat using Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4a7bbf42a44df19c38cef81188d461') in 0.024680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.034395 seconds.
+  path: Assets/Materials/wall_001.mat
+  artifactKey: Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall_001.mat using Guid(0e47faceceb1488498076e9446f7e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7dfd1a34ef7e30fe48760f2134979e') in 0.019902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 117.543398 seconds.
+  path: Assets/Materials/ground001_N.mat
+  artifactKey: Guid(fc2b9be9fef8a894bb1655c1bd1dc24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground001_N.mat using Guid(fc2b9be9fef8a894bb1655c1bd1dc24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d6e818d4ad50106da2199e6b577aff') in 0.024356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 124.141383 seconds.
+  path: Assets/Materials/wall_002.mat
+  artifactKey: Guid(d3b2159f0c7dd094ca7e5efe16546b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall_002.mat using Guid(d3b2159f0c7dd094ca7e5efe16546b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1120f3f05119485d0823c90e2f3419a8') in 0.019422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.258331 seconds.
+  path: Assets/Textures/wall_002 1.png
+  artifactKey: Guid(bd9ab95698dd4c344bf27be56842f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/wall_002 1.png using Guid(bd9ab95698dd4c344bf27be56842f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c57fe44b90712de5a734ad0c7887043') in 0.022603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.740792 seconds.
+  path: Assets/Textures/wall_002_N.png
+  artifactKey: Guid(bd9ab95698dd4c344bf27be56842f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/wall_002_N.png using Guid(bd9ab95698dd4c344bf27be56842f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70568a3d0664d69d4118eb0210f9086') in 0.022286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.579523 seconds.
+  path: Assets/Textures/wall_002_N.png
+  artifactKey: Guid(bd9ab95698dd4c344bf27be56842f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/wall_002_N.png using Guid(bd9ab95698dd4c344bf27be56842f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5213a1f77595a3b7ada9046e53e5ab2b') in 0.022897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
