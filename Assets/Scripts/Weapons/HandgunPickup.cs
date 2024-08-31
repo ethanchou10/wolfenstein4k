@@ -12,6 +12,7 @@ public class HandgunPickup : MonoBehaviour
     {
         realHandgun.SetActive(true);
         fakeHandgun.SetActive(false);
+        Destroy(fakeHandgun);
         handgunPickupSound.Play();
     }
 }

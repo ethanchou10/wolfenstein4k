@@ -10,6 +10,7 @@ public class HandgunAmmoPick : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         fakeAmmoClip.SetActive(false);
+        Destroy(fakeAmmoClip);
         ammoPickupSound.Play();
         GlobalAmmo.handgunAmmo += 10;
     }
