@@ -20,7 +20,7 @@ public class GlobalHealth : MonoBehaviour
     void Update()
     {
         if (healthValue <= 0) {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
         internalHealth = healthValue;
         healthDisplay.text = $"{healthValue}%";
