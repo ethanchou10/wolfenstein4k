@@ -35,6 +35,7 @@ public class SoldierAI : MonoBehaviour
         theSoldier.GetComponent<Animator>().Play("assault_combat_shoot");
         fireSound.Play();
         lookingAtPlayer = true;
+        GlobalHealth.healthValue -= 5;
         yield return new WaitForSeconds(fireRate);
         isFiring = false;
     }
