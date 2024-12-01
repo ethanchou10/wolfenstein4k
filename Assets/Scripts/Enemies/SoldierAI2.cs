@@ -9,7 +9,7 @@ public class SoldierAI2 : MonoBehaviour
     public GameObject theSoldier;
     public AudioSource fireSound;
     public bool isFiring = false;
-    public float fireRate = 1.5f;
+    public float fireRate = 1.0f;
 
     void Update() {
         RaycastHit Hit;

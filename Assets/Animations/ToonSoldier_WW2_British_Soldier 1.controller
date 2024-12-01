@@ -26,14 +26,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-317946427599715656
+--- !u!1102 &-2245440660330340686
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: machinegun_combat_shoot
+  m_Name: machinegun_combat_shoot_burst
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -46,7 +46,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f22eb7c7ec7fa914e9e2a6561f7bcda3, type: 2}
+  m_Motion: {fileID: 7400000, guid: 288574ef1949a5c4a8bea59dd3ff7d58, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -65,14 +65,14 @@ AnimatorStateMachine:
     m_State: {fileID: -5854872800853348652}
     m_Position: {x: 250, y: 0, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 7689918192034195422}
-    m_Position: {x: 310, y: 70, z: 0}
+    m_State: {fileID: 4512428420555723166}
+    m_Position: {x: 285, y: 65, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -317946427599715656}
-    m_Position: {x: 270, y: 130, z: 0}
+    m_State: {fileID: 2857475144555139424}
+    m_Position: {x: 320, y: 130, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 5384107955693208884}
-    m_Position: {x: 305, y: 195, z: 0}
+    m_State: {fileID: -2245440660330340686}
+    m_Position: {x: 355, y: 195, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -105,14 +105,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &5384107955693208884
+--- !u!1102 &2857475144555139424
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: machinegun_combat_shoot_burst
+  m_Name: machinegun_combat_shoot
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -125,13 +125,13 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 288574ef1949a5c4a8bea59dd3ff7d58, type: 2}
+  m_Motion: {fileID: 7400000, guid: f22eb7c7ec7fa914e9e2a6561f7bcda3, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &7689918192034195422
+--- !u!1102 &4512428420555723166
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1

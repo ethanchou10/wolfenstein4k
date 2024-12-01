@@ -10,6 +10,9 @@ public class SoldierAI : MonoBehaviour
     public AudioSource fireSound;
     public bool isFiring = false;
     public float fireRate = 1.5f;
+    public int genHurt;
+    public AudioSource[] hurtSound;
+    public GameObject hurtFlash;
 
     void Update() {
         RaycastHit Hit;
@@ -36,6 +39,12 @@ public class SoldierAI : MonoBehaviour
         fireSound.Play();
         lookingAtPlayer = true;
         GlobalHealth.healthValue = GlobalHealth.healthValue - 5;
+        hurtFlash.SetActive(true);
+        yield return new WaitForSeconds(0.2f);
+        hurtFlash.SetActive(false);
+        genHurt = Random.Range(0, 3);
+        hurtSound[genHurt].Play();
+        
         yield return new WaitForSeconds(fireRate);
         isFiring = false;
     }
