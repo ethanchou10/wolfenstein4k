@@ -6240,17 +6240,33 @@ PrefabInstance:
       addedObject: {fileID: 71009793}
     - targetCorrespondingSourceObject: {fileID: 100050, guid: c6acf3f29c109e4439950c8f6a85cb2b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1034088433}
+      addedObject: {fileID: 1034088436}
     - targetCorrespondingSourceObject: {fileID: 100050, guid: c6acf3f29c109e4439950c8f6a85cb2b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1034088436}
+      addedObject: {fileID: 1034088437}
   m_SourcePrefab: {fileID: 100100000, guid: c6acf3f29c109e4439950c8f6a85cb2b, type: 3}
 --- !u!1 &1034088432 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100050, guid: c6acf3f29c109e4439950c8f6a85cb2b, type: 3}
   m_PrefabInstance: {fileID: 1034088431}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1034088433
+--- !u!114 &1034088436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034088432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4bd6b4012e64e488076de0abe4db61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealth: 20
+  enemyDead: 0
+  enemyAI: {fileID: 1095484036}
+  theEnemy: {fileID: 71009790}
+--- !u!65 &1034088437
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6269,24 +6285,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.1164494, y: 2.0890646, z: 2.7261782}
-  m_Center: {x: 0.5969844, y: 0.08105801, z: 1.0864362}
---- !u!114 &1034088436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034088432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab4bd6b4012e64e488076de0abe4db61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyHealth: 20
-  enemyDead: 0
-  enemyAI: {fileID: 1095484036}
-  theEnemy: {fileID: 71009790}
+  m_Size: {x: 4.1164494, y: 3, z: 3}
+  m_Center: {x: 0.5969844, y: 0.08105801, z: 0.966436}
 --- !u!1001 &1035144732
 PrefabInstance:
   m_ObjectHideFlags: 0

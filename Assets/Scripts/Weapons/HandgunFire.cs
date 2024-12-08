@@ -35,11 +35,11 @@ public class HandgunFire : MonoBehaviour
         RaycastHit theShot;
         isFiring = true;
         GlobalAmmo.handgunAmmo -= 1;
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out theShot))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out theShot))
         {
             targetDistance = theShot.distance;
             Debug.Log(targetDistance);
-            theShot.transform.SendMessage("DamageEnemy", damageAmount, SendMessageOptions.DontRequireReceiver);
+            theShot.transform.SendMessage("DamageEnemy", 5, SendMessageOptions.DontRequireReceiver);
         }
         theGun.GetComponent<Animator>().Play("HandgunFire");
         muzzleFlash.SetActive(true);
