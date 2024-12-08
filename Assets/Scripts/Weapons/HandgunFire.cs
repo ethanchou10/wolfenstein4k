@@ -38,6 +38,7 @@ public class HandgunFire : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out theShot))
         {
             targetDistance = theShot.distance;
+            Debug.Log(targetDistance);
             theShot.transform.SendMessage("DamageEnemy", damageAmount, SendMessageOptions.DontRequireReceiver);
         }
         theGun.GetComponent<Animator>().Play("HandgunFire");
