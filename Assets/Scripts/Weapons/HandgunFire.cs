@@ -39,7 +39,7 @@ public class HandgunFire : MonoBehaviour
         {
             targetDistance = theShot.distance;
             Debug.Log(targetDistance);
-            theShot.transform.SendMessage("DamageEnemy", 5, SendMessageOptions.DontRequireReceiver);
+            theShot.transform.SendMessage("DamageEnemy", damageAmount, SendMessageOptions.DontRequireReceiver);
         }
         theGun.GetComponent<Animator>().Play("HandgunFire");
         muzzleFlash.SetActive(true);

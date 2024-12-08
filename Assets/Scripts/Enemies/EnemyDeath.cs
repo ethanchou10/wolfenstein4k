@@ -22,7 +22,7 @@ public class EnemyDeath : MonoBehaviour
         if (enemyHealth <= 0 && enemyDead == false)
         {
             enemyDead = true;
-            theEnemy.GetComponent<Animator>().Play("handgun_death_D");
+            theEnemy.GetComponent<Animator>().Play("infantry_death_A");
             enemyAI.SetActive(false);
             theEnemy.GetComponent<LookPlayer>().enabled = false;
         }
