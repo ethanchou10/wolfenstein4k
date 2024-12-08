@@ -13,7 +13,7 @@ public class GlobalHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        healthValue = 30;
+        healthValue = 100;
     }
 
     // Update is called once per frame
