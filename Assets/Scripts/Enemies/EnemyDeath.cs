@@ -11,8 +11,6 @@ public class EnemyDeath : MonoBehaviour
 
     void DamageEnemy(int damageAmount)
     {
-        Debug.Log("DamageEnemy");
-        Debug.Log(damageAmount);
         enemyHealth -= damageAmount;
     }
 
