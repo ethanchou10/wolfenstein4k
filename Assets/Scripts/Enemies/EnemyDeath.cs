@@ -23,6 +23,7 @@ public class EnemyDeath : MonoBehaviour
             theEnemy.GetComponent<Animator>().Play("infantry_death_A");
             enemyAI.SetActive(false);
             theEnemy.GetComponent<LookPlayer>().enabled = false;
+            GlobalScore.scoreValue += 100;
         }
     }
 }
