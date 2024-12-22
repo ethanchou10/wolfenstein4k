@@ -18,5 +18,6 @@ public class HandgunAmmoPick : MonoBehaviour
         pickupDisplay.SetActive(false); 
         pickupDisplay.GetComponent<TextMeshProUGUI>().text = "CLIP OF BULLETS";
         pickupDisplay.SetActive(true);
+        GetComponent<BoxCollider>().enabled = false;
     }
 }
