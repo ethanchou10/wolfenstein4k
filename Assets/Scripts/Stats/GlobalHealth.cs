@@ -10,10 +10,14 @@ public class GlobalHealth : MonoBehaviour
     [SerializeField] TMP_Text healthDisplay;
     public static int healthValue;
     public int internalHealth;
+    public GameObject hp100;
+    public GameObject hp75;
+    public GameObject hp50;
+    public GameObject hp25;
     // Start is called before the first frame update
     void Start()
     {
-        healthValue = 1000;
+        healthValue = 100;
     }
 
     // Update is called once per frame
@@ -24,5 +28,34 @@ public class GlobalHealth : MonoBehaviour
         }
         internalHealth = healthValue;
         healthDisplay.text = $"{healthValue}%";
+
+        if (healthValue >= 75)
+        {
+            hp100.SetActive(true);
+            hp75.SetActive(false);
+            hp50.SetActive(false);
+            hp25.SetActive(false);
+        }
+        if (healthValue < 25)
+        {
+            hp100.SetActive(false);
+            hp75.SetActive(false);
+            hp50.SetActive(false);
+            hp25.SetActive(true);
+        }
+        if (healthValue >= 25 && healthValue < 50)
+        {
+            hp100.SetActive(false);
+            hp75.SetActive(false);
+            hp50.SetActive(true);
+            hp25.SetActive(false);
+        }
+        if (healthValue >= 50 && healthValue < 75)
+        {
+            hp100.SetActive(false);
+            hp75.SetActive(true);
+            hp50.SetActive(false);
+            hp25.SetActive(false);
+        }
     }
 }
