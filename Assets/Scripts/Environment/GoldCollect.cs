@@ -13,6 +13,7 @@ public class GoldCollect : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         GlobalScore.scoreValue += 500;
+        GlobalComplete.treasureCount += 1;
         goldIngots.SetActive(false);
         collectSound.Play();
         GetComponent<BoxCollider>().enabled = false;
