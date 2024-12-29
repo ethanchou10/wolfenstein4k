@@ -7,9 +7,11 @@ public class FloorComplete : MonoBehaviour
     public GameObject fadeOut;
     public GameObject completePanel;
     public GameObject thePlayer;
+    public GameObject floorTimer;
 
     void OnTriggerEnter(Collider other)
     {
+        floorTimer.SetActive(false);
         StartCoroutine(CompletedFloor());
         thePlayer.GetComponent<CharacterController>().enabled = false;
         this.gameObject.GetComponent<BoxCollider>().enabled = false;

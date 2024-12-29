@@ -11668,6 +11668,7 @@ MonoBehaviour:
   fadeOut: {fileID: 1712399386}
   completePanel: {fileID: 781976852}
   thePlayer: {fileID: 1395443684}
+  floorTimer: {fileID: 1410866725}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -15597,7 +15598,8 @@ Transform:
   m_LocalPosition: {x: 597.4802, y: 74.92839, z: 329.66238}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1410866726}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1153722752
@@ -19327,6 +19329,54 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83a0c52366d043948b7b8baee40e87b9, type: 3}
+--- !u!1 &1410866725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410866726}
+  - component: {fileID: 1410866727}
+  m_Layer: 0
+  m_Name: FloorTimer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1410866726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410866725}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1153722751}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1410866727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410866725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37c68bb421b4c8346aaf2e70aa3362e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondCount: 0
+  minuteCount: 0
+  addingTime: 0
+  timeDisplay: {fileID: 138964784}
 --- !u!1 &1416052193
 GameObject:
   m_ObjectHideFlags: 0
@@ -22946,7 +22996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: bc36510796ac19748954a10f9bd1f6f6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: bc36510796ac19748954a10f9bd1f6f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31298,9 +31348,9 @@ SceneRoots:
   - {fileID: 898716738}
   - {fileID: 1106566797}
   - {fileID: 176455708}
-  - {fileID: 1153722751}
   - {fileID: 1034088431}
   - {fileID: 2053726906}
   - {fileID: 2125386972}
   - {fileID: 1926689561}
   - {fileID: 993264245}
+  - {fileID: 1153722751}
