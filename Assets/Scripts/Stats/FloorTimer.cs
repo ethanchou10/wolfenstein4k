@@ -29,7 +29,28 @@ public class FloorTimer : MonoBehaviour
             secondCount = 0;
             minuteCount += 1;
         }
-        timeDisplay.text = $"{minuteCount}:{secondCount}";
+        if (secondCount <= 9)
+        {
+            if (minuteCount <= 9)
+            {
+                timeDisplay.text = $"0{minuteCount}:0{secondCount}";
+            }
+            else
+            {
+                timeDisplay.text = $"{minuteCount}:0{secondCount}";
+            }
+        }
+        else
+        {
+            if (minuteCount <= 9)
+            {
+                timeDisplay.text = $"0{minuteCount}:{secondCount}";
+            }
+            else
+            {
+                timeDisplay.text = $"{minuteCount}:{secondCount}";
+            }
+        }
         addingTime = false;
     }
 }
