@@ -25,4 +25,13 @@ public class MainMenuControl : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void ResetGame()
+    {
+        PlayerPrefs.SetInt("SceneToLoad", 0);
+        PlayerPrefs.SetInt("LivesSaved", 0);
+        PlayerPrefs.SetInt("ScoreSaved", 0);
+        PlayerPrefs.SetInt("AmmoSaved", 0);
+        SceneManager.LoadScene(0);
+    }
 }
