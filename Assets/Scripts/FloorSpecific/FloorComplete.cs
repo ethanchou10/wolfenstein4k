@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FloorComplete : MonoBehaviour
 {
@@ -22,5 +23,12 @@ public class FloorComplete : MonoBehaviour
         fadeOut.SetActive(true);
         yield return new WaitForSeconds(2);
         completePanel.SetActive(true);
+        yield return new WaitForSeconds(15);
+
+        GlobalScore.scoreValue = 0;
+        GlobalComplete.enemyCount = 0;
+        GlobalComplete.treasureCount = 0;
+
+        SceneManager.LoadScene(4);
     }
 }
