@@ -1680,7 +1680,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1217051479}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1300978613}
+        m_TargetAssemblyTypeName: MainMenuControl, Assembly-CSharp
+        m_MethodName: CreditButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1217051479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1750,6 +1762,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickSound: {fileID: 879578450}
   fadeOut: {fileID: 49140782}
+  loadScene: 0
+  loadLives: 0
+  loadScore: 0
+  loadAmmo: 0
 --- !u!4 &1300978614
 Transform:
   m_ObjectHideFlags: 0
@@ -2455,7 +2471,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2140082327}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1300978613}
+        m_TargetAssemblyTypeName: MainMenuControl, Assembly-CSharp
+        m_MethodName: LoadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2140082327
 MonoBehaviour:
   m_ObjectHideFlags: 0

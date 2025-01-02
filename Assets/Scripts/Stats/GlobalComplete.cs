@@ -9,7 +9,7 @@ public class GlobalComplete : MonoBehaviour
     public static int treasureCount;
     [SerializeField] TMP_Text enemyDisplay;
     [SerializeField] TMP_Text treasureDisplay;
-    public static int nextFloor = 5;
+    public static int nextFloor = 4;
 
     // Update is called once per frame
     void Update()
