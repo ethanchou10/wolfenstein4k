@@ -18,7 +18,7 @@ public class MainMenuControl : MonoBehaviour
         clickSound.Play();
         fadeOut.SetActive(true);
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void QuitGame()
