@@ -15,6 +15,11 @@ public class FPSInput : MonoBehaviour {
 	
 	void Start() {
 		charController = GetComponent<CharacterController>();
+
+		// Make the cursor invisible and locked to the center of the screen
+		// webgl 360 rotation fix
+		// https://discussions.unity.com/t/webgl-causing-rotation-error/204492/2
+		Cursor.lockState = CursorLockMode.Locked;
 	}
 	
 	void Update() {
